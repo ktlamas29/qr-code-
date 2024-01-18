@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Outfit:wght@400;700&family=Poppins:wght@400;700&family=Raleway:ital,wght@1,200&family=Seaweed+Script&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    padding: 10px;
+}
+
+
+.container{
+    max-width: 275px;
+    /* border: solid green; */
+    padding: 10px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 10px 10px 15px 7px hsl(218, 44%, 22%);
+    
+}
+
+
+.img-qr{
+    width: 100%;
+    /*background: purple; */
+    border-radius: 7px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.img-qr img{
+    width: 100%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.content-qr{
+    width: 95%;
+    /* background: rgb(205, 81, 50); */
+    text-align: center;
+    margin: 3px auto 0px;
+    padding: 10px 15px 20px 15px;
+}
+
+.container-qr h3{
+    color: hsl(218, 44%, 22%);
+    padding: 0 15px;
+}
+
+.content-qr p{
+    color: hsl(220, 15%, 55%);
+    padding: 3px;
+}
+
